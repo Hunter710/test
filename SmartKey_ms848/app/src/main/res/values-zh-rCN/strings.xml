@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">智能按键</string>
+    <string name="wireless_display">无线互联</string>
+    <string name="E_Share">E-Share</string>
+    <string name="enjoy_music">单独听</string>
+    <string name="sleep_timer">睡眠关机</string>
+    <string name="world_clock">世界时钟</string>
+    <string name="soundbar_ready">声霸通</string>
+    <string name="fast_cast">极速投屏</string>
+    <string name="night_mode">夜间模式</string>
+    <string name="second">秒</string>
+    <string name="singleListener_tip">除音量键外，按任意键可取消！</string>
+    <string name="singleListener_enter">进入单独听模式</string>
+    <string name="weather">天气</string>
+    <string name="turn_off">关闭</string>
+    <string name="time_off">关闭</string>
+    <string name="time_10">10分钟</string>
+    <string name="time_20">20分钟</string>
+    <string name="time_30">30分钟</string>
+    <string name="time_60">60分钟</string>
+    <string name="time_90">90分钟</string>
+    <string name="time_120">120分钟</string>
+    <string name="time_180">180分钟</string>
+    <string name="standard">标准</string>
+    <string name="music">音乐</string>
+    <string name="movie">电影</string>
+
+    <string name="night_mode_failed">开启夜间模式失败</string>
+</resources>

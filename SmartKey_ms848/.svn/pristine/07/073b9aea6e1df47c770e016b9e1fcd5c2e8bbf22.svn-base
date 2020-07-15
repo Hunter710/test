@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="E_Share">E-Share</string>
+    <string name="app_name">مفاتيح ذكية</string>
+    <string name="enjoy_music">الاستمتاع بالموسيقى</string>
+    <string name="fast_cast">FastCast</string>
+    <string name="movie">فيلم</string>
+    <string name="music">موسيقى</string>
+    <string name="night_mode">الوضع الليلي</string>
+    <string name="night_mode_failed">فشل الوضع الليلي المفتوح.</string>
+    <string name="second">S</string>
+    <string name="singleListener_enter">ادخل للاستمتاع بالموسيقى</string>
+    <string name="singleListener_tip">اضغط على أي مفتاح باستثناء مفتاح مستوى الصوت للخروج!</string>
+    <string name="sleep_timer">مؤقت النوم</string>
+    <string name="soundbar_ready">شريط الصوت جاهزة</string>
+    <string name="standard">قياسي</string>
+    <string name="time_10">10 دقيقة</string>
+    <string name="time_120">120 دقيقة</string>
+    <string name="time_180">180 دقيقة</string>
+    <string name="time_20">20 دقيقة</string>
+    <string name="time_30">30 دقيقة</string>
+    <string name="time_60">60 دقيقة</string>
+    <string name="time_90">90 دقيقة</string>
+    <string name="time_off">إغلاق</string>
+    <string name="turn_off">>إغلاق</string>
+    <string name="weather">مناخ</string>
+    <string name="wireless_display">عرض لاسلكي</string>
+    <string name="world_clock">العالم على مدار الساعة</string>
+</resources>

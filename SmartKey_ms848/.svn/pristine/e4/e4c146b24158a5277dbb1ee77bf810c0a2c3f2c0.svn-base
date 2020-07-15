@@ -1,0 +1,62 @@
+﻿{
+    "_appname": "智能按键",
+    "_appid": "38e1b1d1",
+    "_sdk_version": "2",
+    "_commands": {
+        "open": [
+            "$W(w_open)"
+        ],
+        "close": [
+            "$W(w_close)"
+        ],
+        "other": [
+            "$W(w_other)"
+        ]
+    },
+    "_fuzzy_words": {
+        "w_open": [
+            "打开智能按键应用",
+            "打开智能按键",
+            "进入智能按键",
+            "启动智能按键",
+            "智能按键",
+            "智能按键应用",
+            "我要看智能按键"
+        ],
+        "w_close": [
+            "退出智能按键应用",
+            "退出智能按键",
+            "关掉智能按键",
+            "关闭智能按键",
+            "我要关掉智能按键",
+            "我要关闭智能按键"
+        ],
+        "w_other": [
+            "睡眠",
+            "睡眠设置",
+            "打开睡眠",
+            "打开睡眠设置",
+            "睡眠关机",
+            "睡眠关机设置",
+            "打开睡眠关机",
+            "打开睡眠关机设置",
+            "单独听",
+            "单独听设置",
+            "打开单独听",
+            "打开单独听设置",
+            "世界时钟",
+            "世界时钟设置",
+            "打开世界时钟",
+            "打开世界时钟设置",
+            "声霸通",
+            "声霸通设置",
+            "打开声霸通",
+            "打开声霸通设置"
+        ]
+    }
+}
+
+
+I7vdvqztFYor1MPUQJ7F9ssbZIMGMemfhqJ7ZFOvLqH+iTWZ4L4GW27uye06kvcRGmmlV8HZ9gCM
+celJL/2RzFAvbzK3T30XRpF9YcdZc/rSmAZQZYcB6QOintxNJs2w0I99Dnfh3Qdi3q94FRua1W7K
+WA/+/wZrYYxqoHRLSGk=

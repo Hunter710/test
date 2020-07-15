@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/soundbar_menu"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/px_115"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="@dimen/px_164"
+        android:background="@drawable/sleep_menu_bg"
+        android:paddingLeft="@dimen/px_600"
+        android:paddingRight="@dimen/px_600"
+        android:visibility="visible">
+
+        <RelativeLayout
+            android:id="@+id/text_standard"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/px_120"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:background="@drawable/sleep_focus_selector"
+            android:clickable="true"
+            android:focusable="true"
+            android:nextFocusLeft="@+id/text_min120">
+
+            <TextView
+                android:id="@+id/text_standard_content"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="@string/standard"
+                android:textColor="@color/white"
+                android:textSize="@dimen/px_25"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/text_music"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/px_120"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:background="@drawable/sleep_focus_selector"
+            android:clickable="true"
+            android:focusable="true">
+
+            <TextView
+                android:id="@+id/text_music_content"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="@string/music"
+                android:textColor="@color/white"
+                android:textSize="@dimen/px_25"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/text_movie"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/px_120"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:background="@drawable/sleep_focus_selector"
+            android:clickable="true"
+            android:focusable="true">
+
+            <TextView
+                android:id="@+id/text_movie_content"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="@string/movie"
+                android:textColor="@color/white"
+                android:textSize="@dimen/px_25"/>
+        </RelativeLayout>
+    </LinearLayout>
+
+</LinearLayout>

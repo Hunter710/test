@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="E_Share">E-Share</string>
+    <string name="app_name">ወሳኝ ቁልፍ</string>
+    <string name="enjoy_music">በሙዚቃ ይደሰቱ</string>
+    <string name="fast_cast">Fast Cast</string>
+    <string name="movie">ፊልም</string>
+    <string name="music">ሙዚቃ</string>
+    <string name="night_mode">የምሽት ሁናቴ</string>
+    <string name="night_mode_failed">የምሽት ሁኔታ አልተሳካም</string>
+    <string name="second">S</string>
+    <string name="singleListener_enter">በሙዚቃ ይደሰቱ ዉስጥ ግባ</string>
+    <string name="singleListener_tip">ለመውጣት ማንኛውንም ቁልፍ ተጫን ከድምፅ መጨመሪያ ዉጪ!</string>
+    <string name="sleep_timer">የእንቅልፍ ቆጣሪ</string>
+    <string name="soundbar_ready">የድምፅ ዘንግ ተዘጋጅቶል</string>
+    <string name="standard">መመዘኛ</string>
+    <string name="time_10">10 ደቂቃ</string>
+    <string name="time_120">120 ደቂቃ</string>
+    <string name="time_180">180 ደቂቃ</string>
+    <string name="time_20">20 ደቂቃ</string>
+    <string name="time_30">30 ደቂቃ</string>
+    <string name="time_60">60 ደቂቃ</string>
+    <string name="time_90">90 ደቂቃ</string>
+    <string name="time_off">ዝጋ</string>
+    <string name="turn_off">ዝጋ</string>
+    <string name="weather">የአየር ሁኔታ</string>
+    <string name="wireless_display">ገመድ አልባ ማሳያ</string>
+    <string name="world_clock">የዓለም ሰዓት</string>
+</resources>

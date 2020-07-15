@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="E_Share">E-Share</string>
+    <string name="app_name">کلید هوشمند</string>
+    <string name="enjoy_music">از موسیقی لذت ببر</string>
+    <string name="fast_cast">FastCast</string>
+    <string name="movie">سینمایی</string>
+    <string name="music">موسیقی</string>
+    <string name="night_mode">حالت شب</string>
+    <string name="night_mode_failed">شب حالت باز شکست خورد</string>
+    <string name="second">S</string>
+    <string name="singleListener_enter">را وارد کنید لذت بردن از موسیقی</string>
+    <string name="singleListener_tip">فشار هر کلید به جز کلید میزان صدا را به خروج!</string>
+    <string name="sleep_timer">تایمر خواب</string>
+    <string name="soundbar_ready">نوار صدا آماده است</string>
+    <string name="standard">استاندارد</string>
+    <string name="time_10">10 دقیقه</string>
+    <string name="time_120">120 دقیقه</string>
+    <string name="time_180">180 دقیقه</string>
+    <string name="time_20">20 دقیقه</string>
+    <string name="time_30">30 دقیقه</string>
+    <string name="time_60">60 دقیقه</string>
+    <string name="time_90">90 دقیقه</string>
+    <string name="time_off">بستن</string>
+    <string name="turn_off">بستن</string>
+    <string name="weather">آب و هوا</string>
+    <string name="wireless_display">صفحه نمایش بی سیم</string>
+    <string name="world_clock">ساعت های دنیا</string>
+</resources>

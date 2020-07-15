@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="E_Share">E-Share</string>
+    <string name="app_name">Смарт-ключи</string>
+    <string name="enjoy_music">Только аудио</string>
+    <string name="fast_cast">FastCast</string>
+    <string name="movie">Кино</string>
+    <string name="music">Музыка</string>
+    <string name="night_mode">Ночной режим</string>
+    <string name="night_mode_failed">Не удалось открыть ночной режим</string>
+    <string name="second">S</string>
+    <string name="singleListener_enter">Войти в Наслаждаться Музыкой</string>
+    <string name="singleListener_tip">Нажмите любую клавишу, кроме кнопки регулировки громкости, чтобы выйти!</string>
+    <string name="sleep_timer">Таймер сна</string>
+    <string name="soundbar_ready">SoundBar</string>
+    <string name="standard">Стандартное</string>
+    <string name="time_10">10 минут</string>
+    <string name="time_120">120 минут</string>
+    <string name="time_180">180 минут</string>
+    <string name="time_20">20 минут</string>
+    <string name="time_30">30 минут</string>
+    <string name="time_60">60 минут</string>
+    <string name="time_90">90 минут</string>
+    <string name="time_off">Выключать</string>
+    <string name="turn_off">Выключать</string>
+    <string name="weather">климат</string>
+    <string name="wireless_display">Беспроводной дисплей</string>
+    <string name="world_clock">Мировые часы</string>
+</resources>

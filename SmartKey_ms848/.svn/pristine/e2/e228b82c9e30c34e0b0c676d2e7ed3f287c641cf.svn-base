@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="E_Share">E-Share</string>
+    <string name="app_name">Intelligence frappe</string>
+    <string name="enjoy_music">Profite de la musique</string>
+    <string name="fast_cast">FastCast</string>
+    <string name="movie">Film</string>
+    <string name="music">Musique</string>
+    <string name="night_mode">Mode nuit</string>
+    <string name="night_mode_failed">Le mode nuit ouverte a échoué</string>
+    <string name="second">S</string>
+    <string name="singleListener_enter">Entrez profiter de la musique</string>
+    <string name="singleListener_tip">Appuyez sur une touche, sauf la touche de volume pour quitter!</string>
+    <string name="sleep_timer">Minuteur de veille</string>
+    <string name="soundbar_ready">Barre de son prête</string>
+    <string name="standard">Standard</string>
+    <string name="time_10">10 min</string>
+    <string name="time_120">120 min</string>
+    <string name="time_180">180 min</string>
+    <string name="time_20">20 min</string>
+    <string name="time_30">30 min</string>
+    <string name="time_60">60 min</string>
+    <string name="time_90">90 min</string>
+    <string name="time_off">Fermer</string>
+    <string name="turn_off">Fermer</string>
+    <string name="weather">Météo</string>
+    <string name="wireless_display">Affichage sans fil</string>
+    <string name="world_clock">Horloge mondiale</string>
+</resources>

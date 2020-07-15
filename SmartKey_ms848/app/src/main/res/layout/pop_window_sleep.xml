@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/sleep_menu"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/px_115"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="@dimen/px_164"
+        android:background="@drawable/sleep_menu_bg"
+        android:visibility="visible">
+
+        <RelativeLayout
+            android:id="@+id/text_off"
+            android:layout_width="@dimen/px_150"
+            android:layout_height="@dimen/px_120"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="@dimen/px_297"
+            android:background="@drawable/sleep_focus_selector"
+            android:clickable="true"
+            android:focusable="true"
+            android:nextFocusLeft="@+id/text_min180">
+
+            <TextView
+                android:id="@+id/text_off_content"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="@string/time_off"
+                android:textColor="@color/white"
+                android:textSize="@dimen/px_25"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/text_min10"
+            android:layout_width="@dimen/px_150"
+            android:layout_height="@dimen/px_120"
+            android:layout_gravity="center_vertical"
+            android:background="@drawable/sleep_focus_selector"
+            android:clickable="true"
+            android:focusable="true">
+
+            <TextView
+                android:id="@+id/text_min10_content"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="@string/time_10"
+                android:textColor="@color/white"
+                android:textSize="@dimen/px_25"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/text_min20"
+            android:layout_width="@dimen/px_150"
+            android:layout_height="@dimen/px_120"
+            android:layout_gravity="center_vertical"
+            android:background="@drawable/sleep_focus_selector"
+            android:clickable="true"
+            android:focusable="true">
+
+            <TextView
+                android:id="@+id/text_min20_content"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="@string/time_20"
+                android:textColor="@color/white"
+                android:textSize="@dimen/px_25"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/text_min30"
+            android:layout_width="@dimen/px_150"
+            android:layout_height="@dimen/px_120"
+            android:layout_gravity="center_vertical"
+            android:background="@drawable/sleep_focus_selector"
+            android:clickable="true"
+            android:focusable="true">
+
+            <TextView
+                android:id="@+id/text_min30_content"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="@string/time_30"
+                android:textColor="@color/white"
+                android:textSize="@dimen/px_25"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/text_min60"
+            android:layout_width="@dimen/px_150"
+            android:layout_height="@dimen/px_120"
+            android:layout_gravity="center_vertical"
+            android:background="@drawable/sleep_focus_selector"
+            android:clickable="true"
+            android:focusable="true">
+
+            <TextView
+                android:id="@+id/text_min60_content"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="@string/time_60"
+                android:textColor="@color/white"
+                android:textSize="@dimen/px_25"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/text_min90"
+            android:layout_width="@dimen/px_150"
+            android:layout_height="@dimen/px_120"
+            android:layout_gravity="center_vertical"
+            android:background="@drawable/sleep_focus_selector"
+            android:clickable="true"
+            android:focusable="true">
+
+            <TextView
+                android:id="@+id/text_min90_content"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="@string/time_90"
+                android:textColor="@color/white"
+                android:textSize="@dimen/px_25"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/text_min120"
+            android:layout_width="@dimen/px_150"
+            android:layout_height="@dimen/px_120"
+            android:layout_gravity="center_vertical"
+            android:background="@drawable/sleep_focus_selector"
+            android:clickable="true"
+            android:focusable="true">
+
+            <TextView
+                android:id="@+id/text_min120_content"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="@string/time_120"
+                android:textColor="@color/white"
+                android:textSize="@dimen/px_25"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/text_min180"
+            android:layout_width="@dimen/px_150"
+            android:layout_height="@dimen/px_120"
+            android:layout_gravity="center_vertical"
+            android:background="@drawable/sleep_focus_selector"
+            android:clickable="true"
+            android:focusable="true"
+            android:nextFocusRight="@+id/text_off">
+
+            <TextView
+                android:id="@+id/text_min180_content"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="@string/time_180"
+                android:textColor="@color/white"
+                android:textSize="@dimen/px_25"/>
+        </RelativeLayout>
+    </LinearLayout>
+
+</LinearLayout>

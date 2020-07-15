@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">สมาร์ทคีย์</string>
+    <string name="wireless_display">หน้าจอไร้สาย</string>
+    <string name="E_Share">E-Share</string>
+    <string name="enjoy_music">เพลิดเพลินไปกับเสียงเพลง</string>
+    <string name="sleep_timer">เวลานอน</string>
+    <string name="world_clock">โซนเวลา</string>
+    <string name="soundbar_ready">SoundBar Ready</string>
+    <string name="fast_cast">FastCast</string>
+    <string name="night_mode">โหมดกลางคืน</string>
+    <string name="second">S</string>
+    <string name="singleListener_tip">กดปุ่มใดก็ได้ยกเว้นปุ่มระดับเสียงเพื่อออก!</string>
+    <string name="singleListener_enter">ฟังเพลง</string>
+    <string name="weather">สภาพอากาศ</string>
+    <string name="turn_off">ปิด</string>
+    <string name="time_off">ปิด</string>
+    <string name="time_10">10 นาที</string>
+    <string name="time_20">20 นาที</string>
+    <string name="time_30">30 นาที</string>
+    <string name="time_60">60 นาที</string>
+    <string name="time_90">90 นาที</string>
+    <string name="time_120">120 นาที</string>
+    <string name="time_180">180 นาที</string>
+    <string name="standard">มาตรฐาน</string>
+    <string name="music">เพลง</string>
+    <string name="movie">ภาพยนตร์</string>
+
+    <string name="night_mode_failed">เปิดโหมดกลางคืนล้มเหลว</string>
+</resources>

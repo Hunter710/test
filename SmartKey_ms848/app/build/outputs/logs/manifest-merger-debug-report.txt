@@ -1,0 +1,193 @@
+-- Merging decision tree log ---
+manifest
+ADDED from D:\Work\TCL-project\Doc\MS848\TCL_ReviewApp\SmartKey_ms848\app\src\main\AndroidManifest.xml:2:1-63:12
+INJECTED from D:\Work\TCL-project\Doc\MS848\TCL_ReviewApp\SmartKey_ms848\app\src\main\AndroidManifest.xml:2:1-63:12
+INJECTED from D:\Work\TCL-project\Doc\MS848\TCL_ReviewApp\SmartKey_ms848\app\src\main\AndroidManifest.xml:2:1-63:12
+INJECTED from D:\Work\TCL-project\Doc\MS848\TCL_ReviewApp\SmartKey_ms848\app\src\main\AndroidManifest.xml:2:1-63:12
+MERGED from [com.android.support:support-v4:25.4.0] C:\Users\zhihua.huang\.gradle\caches\transforms-1\files-1.1\support-v4-25.4.0.aar\94563b2b8d9a35d88c3d4046ed083e5f\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-fragment:25.4.0] C:\Users\zhihua.huang\.gradle\caches\transforms-1\files-1.1\support-fragment-25.4.0.aar\1f84fd1115a225b19624aec697a3f193\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-media-compat:25.4.0] C:\Users\zhihua.huang\.gradle\caches\transforms-1\files-1.1\support-media-compat-25.4.0.aar\ede6c353204f9d23854507ce41538021\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-core-utils:25.4.0] C:\Users\zhihua.huang\.gradle\caches\transforms-1\files-1.1\support-core-utils-25.4.0.aar\00ea4b4fc066d4b0812942254277511b\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-core-ui:25.4.0] C:\Users\zhihua.huang\.gradle\caches\transforms-1\files-1.1\support-core-ui-25.4.0.aar\34ed5bea1078d8b6d05d47f264dfd92e\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-compat:25.4.0] C:\Users\zhihua.huang\.gradle\caches\transforms-1\files-1.1\support-compat-25.4.0.aar\be22e3d470d6084307b00be6763d7f73\AndroidManifest.xml:17:1-31:12
+INJECTED from D:\Work\TCL-project\Doc\MS848\TCL_ReviewApp\SmartKey_ms848\app\src\main\AndroidManifest.xml:2:1-63:12
+INJECTED from D:\Work\TCL-project\Doc\MS848\TCL_ReviewApp\SmartKey_ms848\app\src\main\AndroidManifest.xml:2:1-63:12
+INJECTED from D:\Work\TCL-project\Doc\MS848\TCL_ReviewApp\SmartKey_ms848\app\src\main\AndroidManifest.xml:2:1-63:12
+	package
+		ADDED from D:\Work\TCL-project\Doc\MS848\TCL_ReviewApp\SmartKey_ms848\app\src\main\AndroidManifest.xml:2:11-37
+		INJECTED from D:\Work\TCL-project\Doc\MS848\TCL_ReviewApp\SmartKey_ms848\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Work\TCL-project\Doc\MS848\TCL_ReviewApp\SmartKey_ms848\app\src\main\AndroidManifest.xml
+	android:versionName
+		ADDED from D:\Work\TCL-project\Doc\MS848\TCL_ReviewApp\SmartKey_ms848\app\src\main\AndroidManifest.xml:5:11-41
+		INJECTED from D:\Work\TCL-project\Doc\MS848\TCL_ReviewApp\SmartKey_ms848\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Work\TCL-project\Doc\MS848\TCL_ReviewApp\SmartKey_ms848\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from D:\Work\TCL-project\Doc\MS848\TCL_ReviewApp\SmartKey_ms848\app\src\main\AndroidManifest.xml:3:11-69
+	android:versionCode
+		ADDED from D:\Work\TCL-project\Doc\MS848\TCL_ReviewApp\SmartKey_ms848\app\src\main\AndroidManifest.xml:4:11-41
+		INJECTED from D:\Work\TCL-project\Doc\MS848\TCL_ReviewApp\SmartKey_ms848\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Work\TCL-project\Doc\MS848\TCL_ReviewApp\SmartKey_ms848\app\src\main\AndroidManifest.xml
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from D:\Work\TCL-project\Doc\MS848\TCL_ReviewApp\SmartKey_ms848\app\src\main\AndroidManifest.xml:7:5-80
+	android:name
+		ADDED from D:\Work\TCL-project\Doc\MS848\TCL_ReviewApp\SmartKey_ms848\app\src\main\AndroidManifest.xml:7:22-78
+uses-permission#com.tcl.ShortcutKey
+ADDED from D:\Work\TCL-project\Doc\MS848\TCL_ReviewApp\SmartKey_ms848\app\src\main\AndroidManifest.xml:8:5-58
+	android:name
+		ADDED from D:\Work\TCL-project\Doc\MS848\TCL_ReviewApp\SmartKey_ms848\app\src\main\AndroidManifest.xml:8:22-56
+uses-permission#android.permission.WRITE_SETTINGS
+ADDED from D:\Work\TCL-project\Doc\MS848\TCL_ReviewApp\SmartKey_ms848\app\src\main\AndroidManifest.xml:9:5-72
+	android:name
+		ADDED from D:\Work\TCL-project\Doc\MS848\TCL_ReviewApp\SmartKey_ms848\app\src\main\AndroidManifest.xml:9:22-70
+uses-permission#android.permission.WRITE_SECURE_SETTINGS
+ADDED from D:\Work\TCL-project\Doc\MS848\TCL_ReviewApp\SmartKey_ms848\app\src\main\AndroidManifest.xml:10:5-79
+	android:name
+		ADDED from D:\Work\TCL-project\Doc\MS848\TCL_ReviewApp\SmartKey_ms848\app\src\main\AndroidManifest.xml:10:22-77
+uses-sdk
+ADDED from D:\Work\TCL-project\Doc\MS848\TCL_ReviewApp\SmartKey_ms848\app\src\main\AndroidManifest.xml:12:5-14:40
+INJECTED from D:\Work\TCL-project\Doc\MS848\TCL_ReviewApp\SmartKey_ms848\app\src\main\AndroidManifest.xml:12:5-14:40
+INJECTED from D:\Work\TCL-project\Doc\MS848\TCL_ReviewApp\SmartKey_ms848\app\src\main\AndroidManifest.xml:12:5-14:40
+MERGED from [com.android.support:support-v4:25.4.0] C:\Users\zhihua.huang\.gradle\caches\transforms-1\files-1.1\support-v4-25.4.0.aar\94563b2b8d9a35d88c3d4046ed083e5f\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-v4:25.4.0] C:\Users\zhihua.huang\.gradle\caches\transforms-1\files-1.1\support-v4-25.4.0.aar\94563b2b8d9a35d88c3d4046ed083e5f\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-fragment:25.4.0] C:\Users\zhihua.huang\.gradle\caches\transforms-1\files-1.1\support-fragment-25.4.0.aar\1f84fd1115a225b19624aec697a3f193\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-fragment:25.4.0] C:\Users\zhihua.huang\.gradle\caches\transforms-1\files-1.1\support-fragment-25.4.0.aar\1f84fd1115a225b19624aec697a3f193\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-media-compat:25.4.0] C:\Users\zhihua.huang\.gradle\caches\transforms-1\files-1.1\support-media-compat-25.4.0.aar\ede6c353204f9d23854507ce41538021\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-media-compat:25.4.0] C:\Users\zhihua.huang\.gradle\caches\transforms-1\files-1.1\support-media-compat-25.4.0.aar\ede6c353204f9d23854507ce41538021\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-utils:25.4.0] C:\Users\zhihua.huang\.gradle\caches\transforms-1\files-1.1\support-core-utils-25.4.0.aar\00ea4b4fc066d4b0812942254277511b\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-utils:25.4.0] C:\Users\zhihua.huang\.gradle\caches\transforms-1\files-1.1\support-core-utils-25.4.0.aar\00ea4b4fc066d4b0812942254277511b\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-ui:25.4.0] C:\Users\zhihua.huang\.gradle\caches\transforms-1\files-1.1\support-core-ui-25.4.0.aar\34ed5bea1078d8b6d05d47f264dfd92e\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-ui:25.4.0] C:\Users\zhihua.huang\.gradle\caches\transforms-1\files-1.1\support-core-ui-25.4.0.aar\34ed5bea1078d8b6d05d47f264dfd92e\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:25.4.0] C:\Users\zhihua.huang\.gradle\caches\transforms-1\files-1.1\support-compat-25.4.0.aar\be22e3d470d6084307b00be6763d7f73\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:25.4.0] C:\Users\zhihua.huang\.gradle\caches\transforms-1\files-1.1\support-compat-25.4.0.aar\be22e3d470d6084307b00be6763d7f73\AndroidManifest.xml:21:5-23:58
+INJECTED from D:\Work\TCL-project\Doc\MS848\TCL_ReviewApp\SmartKey_ms848\app\src\main\AndroidManifest.xml:12:5-14:40
+INJECTED from D:\Work\TCL-project\Doc\MS848\TCL_ReviewApp\SmartKey_ms848\app\src\main\AndroidManifest.xml:12:5-14:40
+	tools:overrideLibrary
+		ADDED from [com.android.support:support-v4:25.4.0] C:\Users\zhihua.huang\.gradle\caches\transforms-1\files-1.1\support-v4-25.4.0.aar\94563b2b8d9a35d88c3d4046ed083e5f\AndroidManifest.xml:23:9-51
+	android:targetSdkVersion
+		ADDED from D:\Work\TCL-project\Doc\MS848\TCL_ReviewApp\SmartKey_ms848\app\src\main\AndroidManifest.xml:14:9-38
+		INJECTED from D:\Work\TCL-project\Doc\MS848\TCL_ReviewApp\SmartKey_ms848\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Work\TCL-project\Doc\MS848\TCL_ReviewApp\SmartKey_ms848\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		ADDED from D:\Work\TCL-project\Doc\MS848\TCL_ReviewApp\SmartKey_ms848\app\src\main\AndroidManifest.xml:13:9-35
+		INJECTED from D:\Work\TCL-project\Doc\MS848\TCL_ReviewApp\SmartKey_ms848\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Work\TCL-project\Doc\MS848\TCL_ReviewApp\SmartKey_ms848\app\src\main\AndroidManifest.xml
+application
+ADDED from D:\Work\TCL-project\Doc\MS848\TCL_ReviewApp\SmartKey_ms848\app\src\main\AndroidManifest.xml:16:5-61:19
+MERGED from [com.android.support:support-v4:25.4.0] C:\Users\zhihua.huang\.gradle\caches\transforms-1\files-1.1\support-v4-25.4.0.aar\94563b2b8d9a35d88c3d4046ed083e5f\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-v4:25.4.0] C:\Users\zhihua.huang\.gradle\caches\transforms-1\files-1.1\support-v4-25.4.0.aar\94563b2b8d9a35d88c3d4046ed083e5f\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-fragment:25.4.0] C:\Users\zhihua.huang\.gradle\caches\transforms-1\files-1.1\support-fragment-25.4.0.aar\1f84fd1115a225b19624aec697a3f193\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-fragment:25.4.0] C:\Users\zhihua.huang\.gradle\caches\transforms-1\files-1.1\support-fragment-25.4.0.aar\1f84fd1115a225b19624aec697a3f193\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-media-compat:25.4.0] C:\Users\zhihua.huang\.gradle\caches\transforms-1\files-1.1\support-media-compat-25.4.0.aar\ede6c353204f9d23854507ce41538021\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-media-compat:25.4.0] C:\Users\zhihua.huang\.gradle\caches\transforms-1\files-1.1\support-media-compat-25.4.0.aar\ede6c353204f9d23854507ce41538021\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-utils:25.4.0] C:\Users\zhihua.huang\.gradle\caches\transforms-1\files-1.1\support-core-utils-25.4.0.aar\00ea4b4fc066d4b0812942254277511b\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-utils:25.4.0] C:\Users\zhihua.huang\.gradle\caches\transforms-1\files-1.1\support-core-utils-25.4.0.aar\00ea4b4fc066d4b0812942254277511b\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-ui:25.4.0] C:\Users\zhihua.huang\.gradle\caches\transforms-1\files-1.1\support-core-ui-25.4.0.aar\34ed5bea1078d8b6d05d47f264dfd92e\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-ui:25.4.0] C:\Users\zhihua.huang\.gradle\caches\transforms-1\files-1.1\support-core-ui-25.4.0.aar\34ed5bea1078d8b6d05d47f264dfd92e\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-compat:25.4.0] C:\Users\zhihua.huang\.gradle\caches\transforms-1\files-1.1\support-compat-25.4.0.aar\be22e3d470d6084307b00be6763d7f73\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-compat:25.4.0] C:\Users\zhihua.huang\.gradle\caches\transforms-1\files-1.1\support-compat-25.4.0.aar\be22e3d470d6084307b00be6763d7f73\AndroidManifest.xml:25:5-29:19
+	android:label
+		ADDED from D:\Work\TCL-project\Doc\MS848\TCL_ReviewApp\SmartKey_ms848\app\src\main\AndroidManifest.xml:20:9-41
+	android:icon
+		ADDED from D:\Work\TCL-project\Doc\MS848\TCL_ReviewApp\SmartKey_ms848\app\src\main\AndroidManifest.xml:19:9-45
+	android:allowBackup
+		ADDED from D:\Work\TCL-project\Doc\MS848\TCL_ReviewApp\SmartKey_ms848\app\src\main\AndroidManifest.xml:18:9-35
+	android:theme
+		ADDED from D:\Work\TCL-project\Doc\MS848\TCL_ReviewApp\SmartKey_ms848\app\src\main\AndroidManifest.xml:21:9-79
+	android:name
+		ADDED from D:\Work\TCL-project\Doc\MS848\TCL_ReviewApp\SmartKey_ms848\app\src\main\AndroidManifest.xml:17:9-37
+activity#com.odm.smartkey.SmartKeyActivity
+ADDED from D:\Work\TCL-project\Doc\MS848\TCL_ReviewApp\SmartKey_ms848\app\src\main\AndroidManifest.xml:22:9-30:20
+	android:label
+		ADDED from D:\Work\TCL-project\Doc\MS848\TCL_ReviewApp\SmartKey_ms848\app\src\main\AndroidManifest.xml:24:13-45
+	android:name
+		ADDED from D:\Work\TCL-project\Doc\MS848\TCL_ReviewApp\SmartKey_ms848\app\src\main\AndroidManifest.xml:23:13-61
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.DEFAULT+category:name:android.intent.category.LAUNCHER
+ADDED from D:\Work\TCL-project\Doc\MS848\TCL_ReviewApp\SmartKey_ms848\app\src\main\AndroidManifest.xml:25:13-29:29
+action#android.intent.action.MAIN
+ADDED from D:\Work\TCL-project\Doc\MS848\TCL_ReviewApp\SmartKey_ms848\app\src\main\AndroidManifest.xml:26:17-68
+	android:name
+		ADDED from D:\Work\TCL-project\Doc\MS848\TCL_ReviewApp\SmartKey_ms848\app\src\main\AndroidManifest.xml:26:25-66
+category#android.intent.category.DEFAULT
+ADDED from D:\Work\TCL-project\Doc\MS848\TCL_ReviewApp\SmartKey_ms848\app\src\main\AndroidManifest.xml:27:17-75
+	android:name
+		ADDED from D:\Work\TCL-project\Doc\MS848\TCL_ReviewApp\SmartKey_ms848\app\src\main\AndroidManifest.xml:27:27-73
+category#android.intent.category.LAUNCHER
+ADDED from D:\Work\TCL-project\Doc\MS848\TCL_ReviewApp\SmartKey_ms848\app\src\main\AndroidManifest.xml:28:17-77
+	android:name
+		ADDED from D:\Work\TCL-project\Doc\MS848\TCL_ReviewApp\SmartKey_ms848\app\src\main\AndroidManifest.xml:28:27-74
+activity#com.odm.smartkey.SingleListenerRemindActivity
+ADDED from D:\Work\TCL-project\Doc\MS848\TCL_ReviewApp\SmartKey_ms848\app\src\main\AndroidManifest.xml:31:9-32:44
+	android:exported
+		ADDED from D:\Work\TCL-project\Doc\MS848\TCL_ReviewApp\SmartKey_ms848\app\src\main\AndroidManifest.xml:32:19-42
+	android:name
+		ADDED from D:\Work\TCL-project\Doc\MS848\TCL_ReviewApp\SmartKey_ms848\app\src\main\AndroidManifest.xml:31:19-79
+service#com.odm.smartkey.XiriVoiceControlService
+ADDED from D:\Work\TCL-project\Doc\MS848\TCL_ReviewApp\SmartKey_ms848\app\src\main\AndroidManifest.xml:34:9-38:19
+	android:name
+		ADDED from D:\Work\TCL-project\Doc\MS848\TCL_ReviewApp\SmartKey_ms848\app\src\main\AndroidManifest.xml:34:18-73
+intent-filter#action:name:com.iflytek.xiri2.app.NOTIFY
+ADDED from D:\Work\TCL-project\Doc\MS848\TCL_ReviewApp\SmartKey_ms848\app\src\main\AndroidManifest.xml:35:13-37:29
+action#com.iflytek.xiri2.app.NOTIFY
+ADDED from D:\Work\TCL-project\Doc\MS848\TCL_ReviewApp\SmartKey_ms848\app\src\main\AndroidManifest.xml:36:17-71
+	android:name
+		ADDED from D:\Work\TCL-project\Doc\MS848\TCL_ReviewApp\SmartKey_ms848\app\src\main\AndroidManifest.xml:36:25-68
+receiver#com.odm.smartkey.receiver.MyReceiver
+ADDED from D:\Work\TCL-project\Doc\MS848\TCL_ReviewApp\SmartKey_ms848\app\src\main\AndroidManifest.xml:40:9-60:20
+	android:exported
+		ADDED from D:\Work\TCL-project\Doc\MS848\TCL_ReviewApp\SmartKey_ms848\app\src\main\AndroidManifest.xml:42:13-36
+	android:name
+		ADDED from D:\Work\TCL-project\Doc\MS848\TCL_ReviewApp\SmartKey_ms848\app\src\main\AndroidManifest.xml:41:13-64
+intent-filter#action:name:action_child_mode+action:name:com.tclodm.intent.action.singleListenOff
+ADDED from D:\Work\TCL-project\Doc\MS848\TCL_ReviewApp\SmartKey_ms848\app\src\main\AndroidManifest.xml:43:13-46:29
+action#action_child_mode
+ADDED from D:\Work\TCL-project\Doc\MS848\TCL_ReviewApp\SmartKey_ms848\app\src\main\AndroidManifest.xml:44:17-59
+	android:name
+		ADDED from D:\Work\TCL-project\Doc\MS848\TCL_ReviewApp\SmartKey_ms848\app\src\main\AndroidManifest.xml:44:25-57
+action#com.tclodm.intent.action.singleListenOff
+ADDED from D:\Work\TCL-project\Doc\MS848\TCL_ReviewApp\SmartKey_ms848\app\src\main\AndroidManifest.xml:45:17-82
+	android:name
+		ADDED from D:\Work\TCL-project\Doc\MS848\TCL_ReviewApp\SmartKey_ms848\app\src\main\AndroidManifest.xml:45:25-80
+intent-filter#action:name:com.moka.sleepmode
+ADDED from D:\Work\TCL-project\Doc\MS848\TCL_ReviewApp\SmartKey_ms848\app\src\main\AndroidManifest.xml:47:13-49:29
+action#com.moka.sleepmode
+ADDED from D:\Work\TCL-project\Doc\MS848\TCL_ReviewApp\SmartKey_ms848\app\src\main\AndroidManifest.xml:48:17-60
+	android:name
+		ADDED from D:\Work\TCL-project\Doc\MS848\TCL_ReviewApp\SmartKey_ms848\app\src\main\AndroidManifest.xml:48:25-58
+intent-filter#action:name:action_health_eye
+ADDED from D:\Work\TCL-project\Doc\MS848\TCL_ReviewApp\SmartKey_ms848\app\src\main\AndroidManifest.xml:50:13-52:29
+action#action_health_eye
+ADDED from D:\Work\TCL-project\Doc\MS848\TCL_ReviewApp\SmartKey_ms848\app\src\main\AndroidManifest.xml:51:17-59
+	android:name
+		ADDED from D:\Work\TCL-project\Doc\MS848\TCL_ReviewApp\SmartKey_ms848\app\src\main\AndroidManifest.xml:51:25-57
+intent-filter#action:name:android.intent.action.ENTER_HOME+action:name:com.tcl.ShortcutKey+action:name:com.tcl.tv.diandu+category:name:android.intent.category.DEFAULT
+ADDED from D:\Work\TCL-project\Doc\MS848\TCL_ReviewApp\SmartKey_ms848\app\src\main\AndroidManifest.xml:53:13-59:29
+	android:priority
+		ADDED from D:\Work\TCL-project\Doc\MS848\TCL_ReviewApp\SmartKey_ms848\app\src\main\AndroidManifest.xml:53:28-50
+action#com.tcl.ShortcutKey
+ADDED from D:\Work\TCL-project\Doc\MS848\TCL_ReviewApp\SmartKey_ms848\app\src\main\AndroidManifest.xml:54:17-61
+	android:name
+		ADDED from D:\Work\TCL-project\Doc\MS848\TCL_ReviewApp\SmartKey_ms848\app\src\main\AndroidManifest.xml:54:25-59
+action#com.tcl.tv.diandu
+ADDED from D:\Work\TCL-project\Doc\MS848\TCL_ReviewApp\SmartKey_ms848\app\src\main\AndroidManifest.xml:55:17-59
+	android:name
+		ADDED from D:\Work\TCL-project\Doc\MS848\TCL_ReviewApp\SmartKey_ms848\app\src\main\AndroidManifest.xml:55:25-57
+action#android.intent.action.ENTER_HOME
+ADDED from D:\Work\TCL-project\Doc\MS848\TCL_ReviewApp\SmartKey_ms848\app\src\main\AndroidManifest.xml:56:17-74
+	android:name
+		ADDED from D:\Work\TCL-project\Doc\MS848\TCL_ReviewApp\SmartKey_ms848\app\src\main\AndroidManifest.xml:56:25-72
+meta-data#android.support.VERSION
+ADDED from [com.android.support:support-v4:25.4.0] C:\Users\zhihua.huang\.gradle\caches\transforms-1\files-1.1\support-v4-25.4.0.aar\94563b2b8d9a35d88c3d4046ed083e5f\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-fragment:25.4.0] C:\Users\zhihua.huang\.gradle\caches\transforms-1\files-1.1\support-fragment-25.4.0.aar\1f84fd1115a225b19624aec697a3f193\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-fragment:25.4.0] C:\Users\zhihua.huang\.gradle\caches\transforms-1\files-1.1\support-fragment-25.4.0.aar\1f84fd1115a225b19624aec697a3f193\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-media-compat:25.4.0] C:\Users\zhihua.huang\.gradle\caches\transforms-1\files-1.1\support-media-compat-25.4.0.aar\ede6c353204f9d23854507ce41538021\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-media-compat:25.4.0] C:\Users\zhihua.huang\.gradle\caches\transforms-1\files-1.1\support-media-compat-25.4.0.aar\ede6c353204f9d23854507ce41538021\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-utils:25.4.0] C:\Users\zhihua.huang\.gradle\caches\transforms-1\files-1.1\support-core-utils-25.4.0.aar\00ea4b4fc066d4b0812942254277511b\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-utils:25.4.0] C:\Users\zhihua.huang\.gradle\caches\transforms-1\files-1.1\support-core-utils-25.4.0.aar\00ea4b4fc066d4b0812942254277511b\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-ui:25.4.0] C:\Users\zhihua.huang\.gradle\caches\transforms-1\files-1.1\support-core-ui-25.4.0.aar\34ed5bea1078d8b6d05d47f264dfd92e\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-ui:25.4.0] C:\Users\zhihua.huang\.gradle\caches\transforms-1\files-1.1\support-core-ui-25.4.0.aar\34ed5bea1078d8b6d05d47f264dfd92e\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-compat:25.4.0] C:\Users\zhihua.huang\.gradle\caches\transforms-1\files-1.1\support-compat-25.4.0.aar\be22e3d470d6084307b00be6763d7f73\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-compat:25.4.0] C:\Users\zhihua.huang\.gradle\caches\transforms-1\files-1.1\support-compat-25.4.0.aar\be22e3d470d6084307b00be6763d7f73\AndroidManifest.xml:26:9-28:38
+	android:value
+		ADDED from [com.android.support:support-v4:25.4.0] C:\Users\zhihua.huang\.gradle\caches\transforms-1\files-1.1\support-v4-25.4.0.aar\94563b2b8d9a35d88c3d4046ed083e5f\AndroidManifest.xml:28:13-35
+	android:name
+		ADDED from [com.android.support:support-v4:25.4.0] C:\Users\zhihua.huang\.gradle\caches\transforms-1\files-1.1\support-v4-25.4.0.aar\94563b2b8d9a35d88c3d4046ed083e5f\AndroidManifest.xml:27:13-51

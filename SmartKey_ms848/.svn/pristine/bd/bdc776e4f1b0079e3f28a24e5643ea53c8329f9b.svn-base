@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="E_Share">E-Share</string>
+    <string name="app_name">Llave inteligente</string>
+    <string name="enjoy_music">Disfrutar de la música</string>
+    <string name="fast_cast">FastCast</string>
+    <string name="movie">Película</string>
+    <string name="music">Música</string>
+    <string name="night_mode">Modo Nocturno</string>
+    <string name="night_mode_failed">El modo nocturno abierto falló.</string>
+    <string name="second">S</string>
+    <string name="singleListener_enter">Acceder a Disfrutar de la música</string>
+    <string name="singleListener_tip">Presione cualquier tecla excepto la tecla de volumen para salir！</string>
+    <string name="sleep_timer">Tiempo de apagado</string>
+    <string name="soundbar_ready">Barra de sonido lista</string>
+    <string name="standard">Estándar</string>
+    <string name="time_10">10 Min</string>
+    <string name="time_120">120 Min</string>
+    <string name="time_180">180 Min</string>
+    <string name="time_20">20 Min</string>
+    <string name="time_30">30 Min</string>
+    <string name="time_60">60 Min</string>
+    <string name="time_90">90 Min</string>
+    <string name="time_off">Cerca</string>
+    <string name="turn_off">Cerca</string>
+    <string name="weather">Clima</string>
+    <string name="wireless_display">Pantalla inalámbrica</string>
+    <string name="world_clock">Reloj mundial</string>
+</resources>

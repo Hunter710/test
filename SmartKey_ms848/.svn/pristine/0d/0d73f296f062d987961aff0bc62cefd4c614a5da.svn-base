@@ -1,0 +1,179 @@
+-- Merging decision tree log ---
+manifest
+ADDED from D:\SmartKey_MS648_CA\app\src\main\AndroidManifest.xml:2:1-56:12
+INJECTED from D:\SmartKey_MS648_CA\app\src\main\AndroidManifest.xml:2:1-56:12
+INJECTED from D:\SmartKey_MS648_CA\app\src\main\AndroidManifest.xml:2:1-56:12
+INJECTED from D:\SmartKey_MS648_CA\app\src\main\AndroidManifest.xml:2:1-56:12
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\mingshi.huang\.gradle\caches\transforms-1\files-1.1\support-v4-25.3.1.aar\6f1b2173de973e7451642d63016d79fd\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\mingshi.huang\.gradle\caches\transforms-1\files-1.1\support-fragment-25.3.1.aar\8540377d166c86785de2a7a5e07b2f37\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\mingshi.huang\.gradle\caches\transforms-1\files-1.1\support-media-compat-25.3.1.aar\7c9dc670ae7103c6d090ab2c62b349e3\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\mingshi.huang\.gradle\caches\transforms-1\files-1.1\support-core-utils-25.3.1.aar\bdc2b76b1f5520603661f0f2aacf24b1\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\mingshi.huang\.gradle\caches\transforms-1\files-1.1\support-core-ui-25.3.1.aar\04b47450955379643c7e204ead8df7e3\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\mingshi.huang\.gradle\caches\transforms-1\files-1.1\support-compat-25.3.1.aar\0acd13ead184eab62a90fb2506f2cbf7\AndroidManifest.xml:17:1-31:12
+INJECTED from D:\SmartKey_MS648_CA\app\src\main\AndroidManifest.xml:2:1-56:12
+INJECTED from D:\SmartKey_MS648_CA\app\src\main\AndroidManifest.xml:2:1-56:12
+INJECTED from D:\SmartKey_MS648_CA\app\src\main\AndroidManifest.xml:2:1-56:12
+	package
+		ADDED from D:\SmartKey_MS648_CA\app\src\main\AndroidManifest.xml:2:11-37
+		INJECTED from D:\SmartKey_MS648_CA\app\src\main\AndroidManifest.xml
+		INJECTED from D:\SmartKey_MS648_CA\app\src\main\AndroidManifest.xml
+	android:versionName
+		ADDED from D:\SmartKey_MS648_CA\app\src\main\AndroidManifest.xml:5:11-41
+		INJECTED from D:\SmartKey_MS648_CA\app\src\main\AndroidManifest.xml
+		INJECTED from D:\SmartKey_MS648_CA\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from D:\SmartKey_MS648_CA\app\src\main\AndroidManifest.xml:3:11-69
+	android:versionCode
+		ADDED from D:\SmartKey_MS648_CA\app\src\main\AndroidManifest.xml:4:11-41
+		INJECTED from D:\SmartKey_MS648_CA\app\src\main\AndroidManifest.xml
+		INJECTED from D:\SmartKey_MS648_CA\app\src\main\AndroidManifest.xml
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from D:\SmartKey_MS648_CA\app\src\main\AndroidManifest.xml:7:5-80
+	android:name
+		ADDED from D:\SmartKey_MS648_CA\app\src\main\AndroidManifest.xml:7:22-78
+uses-permission#com.tcl.ShortcutKey
+ADDED from D:\SmartKey_MS648_CA\app\src\main\AndroidManifest.xml:8:5-58
+	android:name
+		ADDED from D:\SmartKey_MS648_CA\app\src\main\AndroidManifest.xml:8:22-56
+uses-permission#android.permission.WRITE_SETTINGS
+ADDED from D:\SmartKey_MS648_CA\app\src\main\AndroidManifest.xml:9:5-72
+	android:name
+		ADDED from D:\SmartKey_MS648_CA\app\src\main\AndroidManifest.xml:9:22-70
+uses-sdk
+ADDED from D:\SmartKey_MS648_CA\app\src\main\AndroidManifest.xml:11:5-13:40
+INJECTED from D:\SmartKey_MS648_CA\app\src\main\AndroidManifest.xml:11:5-13:40
+INJECTED from D:\SmartKey_MS648_CA\app\src\main\AndroidManifest.xml:11:5-13:40
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\mingshi.huang\.gradle\caches\transforms-1\files-1.1\support-v4-25.3.1.aar\6f1b2173de973e7451642d63016d79fd\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\mingshi.huang\.gradle\caches\transforms-1\files-1.1\support-v4-25.3.1.aar\6f1b2173de973e7451642d63016d79fd\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\mingshi.huang\.gradle\caches\transforms-1\files-1.1\support-fragment-25.3.1.aar\8540377d166c86785de2a7a5e07b2f37\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\mingshi.huang\.gradle\caches\transforms-1\files-1.1\support-fragment-25.3.1.aar\8540377d166c86785de2a7a5e07b2f37\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\mingshi.huang\.gradle\caches\transforms-1\files-1.1\support-media-compat-25.3.1.aar\7c9dc670ae7103c6d090ab2c62b349e3\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\mingshi.huang\.gradle\caches\transforms-1\files-1.1\support-media-compat-25.3.1.aar\7c9dc670ae7103c6d090ab2c62b349e3\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\mingshi.huang\.gradle\caches\transforms-1\files-1.1\support-core-utils-25.3.1.aar\bdc2b76b1f5520603661f0f2aacf24b1\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\mingshi.huang\.gradle\caches\transforms-1\files-1.1\support-core-utils-25.3.1.aar\bdc2b76b1f5520603661f0f2aacf24b1\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\mingshi.huang\.gradle\caches\transforms-1\files-1.1\support-core-ui-25.3.1.aar\04b47450955379643c7e204ead8df7e3\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\mingshi.huang\.gradle\caches\transforms-1\files-1.1\support-core-ui-25.3.1.aar\04b47450955379643c7e204ead8df7e3\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\mingshi.huang\.gradle\caches\transforms-1\files-1.1\support-compat-25.3.1.aar\0acd13ead184eab62a90fb2506f2cbf7\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\mingshi.huang\.gradle\caches\transforms-1\files-1.1\support-compat-25.3.1.aar\0acd13ead184eab62a90fb2506f2cbf7\AndroidManifest.xml:21:5-23:58
+INJECTED from D:\SmartKey_MS648_CA\app\src\main\AndroidManifest.xml:11:5-13:40
+INJECTED from D:\SmartKey_MS648_CA\app\src\main\AndroidManifest.xml:11:5-13:40
+	tools:overrideLibrary
+		ADDED from [com.android.support:support-v4:25.3.1] C:\Users\mingshi.huang\.gradle\caches\transforms-1\files-1.1\support-v4-25.3.1.aar\6f1b2173de973e7451642d63016d79fd\AndroidManifest.xml:23:9-51
+	android:targetSdkVersion
+		ADDED from D:\SmartKey_MS648_CA\app\src\main\AndroidManifest.xml:13:9-38
+		INJECTED from D:\SmartKey_MS648_CA\app\src\main\AndroidManifest.xml
+		INJECTED from D:\SmartKey_MS648_CA\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		ADDED from D:\SmartKey_MS648_CA\app\src\main\AndroidManifest.xml:12:9-35
+		INJECTED from D:\SmartKey_MS648_CA\app\src\main\AndroidManifest.xml
+		INJECTED from D:\SmartKey_MS648_CA\app\src\main\AndroidManifest.xml
+application
+ADDED from D:\SmartKey_MS648_CA\app\src\main\AndroidManifest.xml:15:5-54:19
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\mingshi.huang\.gradle\caches\transforms-1\files-1.1\support-v4-25.3.1.aar\6f1b2173de973e7451642d63016d79fd\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\mingshi.huang\.gradle\caches\transforms-1\files-1.1\support-v4-25.3.1.aar\6f1b2173de973e7451642d63016d79fd\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\mingshi.huang\.gradle\caches\transforms-1\files-1.1\support-fragment-25.3.1.aar\8540377d166c86785de2a7a5e07b2f37\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\mingshi.huang\.gradle\caches\transforms-1\files-1.1\support-fragment-25.3.1.aar\8540377d166c86785de2a7a5e07b2f37\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\mingshi.huang\.gradle\caches\transforms-1\files-1.1\support-media-compat-25.3.1.aar\7c9dc670ae7103c6d090ab2c62b349e3\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\mingshi.huang\.gradle\caches\transforms-1\files-1.1\support-media-compat-25.3.1.aar\7c9dc670ae7103c6d090ab2c62b349e3\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\mingshi.huang\.gradle\caches\transforms-1\files-1.1\support-core-utils-25.3.1.aar\bdc2b76b1f5520603661f0f2aacf24b1\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\mingshi.huang\.gradle\caches\transforms-1\files-1.1\support-core-utils-25.3.1.aar\bdc2b76b1f5520603661f0f2aacf24b1\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\mingshi.huang\.gradle\caches\transforms-1\files-1.1\support-core-ui-25.3.1.aar\04b47450955379643c7e204ead8df7e3\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\mingshi.huang\.gradle\caches\transforms-1\files-1.1\support-core-ui-25.3.1.aar\04b47450955379643c7e204ead8df7e3\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\mingshi.huang\.gradle\caches\transforms-1\files-1.1\support-compat-25.3.1.aar\0acd13ead184eab62a90fb2506f2cbf7\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\mingshi.huang\.gradle\caches\transforms-1\files-1.1\support-compat-25.3.1.aar\0acd13ead184eab62a90fb2506f2cbf7\AndroidManifest.xml:29:5-20
+	android:label
+		ADDED from D:\SmartKey_MS648_CA\app\src\main\AndroidManifest.xml:19:9-41
+	android:icon
+		ADDED from D:\SmartKey_MS648_CA\app\src\main\AndroidManifest.xml:18:9-45
+	android:allowBackup
+		ADDED from D:\SmartKey_MS648_CA\app\src\main\AndroidManifest.xml:17:9-35
+	android:theme
+		ADDED from D:\SmartKey_MS648_CA\app\src\main\AndroidManifest.xml:20:9-79
+	android:name
+		ADDED from D:\SmartKey_MS648_CA\app\src\main\AndroidManifest.xml:16:9-37
+activity#com.odm.smartkey.SmartKeyActivity
+ADDED from D:\SmartKey_MS648_CA\app\src\main\AndroidManifest.xml:21:9-29:20
+	android:label
+		ADDED from D:\SmartKey_MS648_CA\app\src\main\AndroidManifest.xml:23:13-45
+	android:name
+		ADDED from D:\SmartKey_MS648_CA\app\src\main\AndroidManifest.xml:22:13-61
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from D:\SmartKey_MS648_CA\app\src\main\AndroidManifest.xml:24:13-28:29
+action#android.intent.action.MAIN
+ADDED from D:\SmartKey_MS648_CA\app\src\main\AndroidManifest.xml:25:17-68
+	android:name
+		ADDED from D:\SmartKey_MS648_CA\app\src\main\AndroidManifest.xml:25:25-66
+category#android.intent.category.LAUNCHER
+ADDED from D:\SmartKey_MS648_CA\app\src\main\AndroidManifest.xml:27:17-77
+	android:name
+		ADDED from D:\SmartKey_MS648_CA\app\src\main\AndroidManifest.xml:27:27-74
+activity#com.odm.smartkey.SingleListenerRemindActivity
+ADDED from D:\SmartKey_MS648_CA\app\src\main\AndroidManifest.xml:30:9-31:44
+	android:exported
+		ADDED from D:\SmartKey_MS648_CA\app\src\main\AndroidManifest.xml:31:19-42
+	android:name
+		ADDED from D:\SmartKey_MS648_CA\app\src\main\AndroidManifest.xml:30:19-79
+receiver#com.odm.smartkey.receiver.MyReceiver
+ADDED from D:\SmartKey_MS648_CA\app\src\main\AndroidManifest.xml:33:9-53:20
+	android:exported
+		ADDED from D:\SmartKey_MS648_CA\app\src\main\AndroidManifest.xml:35:13-36
+	android:name
+		ADDED from D:\SmartKey_MS648_CA\app\src\main\AndroidManifest.xml:34:13-64
+intent-filter#action:name:action_child_mode+action:name:com.tclodm.intent.action.singleListenOff
+ADDED from D:\SmartKey_MS648_CA\app\src\main\AndroidManifest.xml:36:13-39:29
+action#action_child_mode
+ADDED from D:\SmartKey_MS648_CA\app\src\main\AndroidManifest.xml:37:17-59
+	android:name
+		ADDED from D:\SmartKey_MS648_CA\app\src\main\AndroidManifest.xml:37:25-57
+action#com.tclodm.intent.action.singleListenOff
+ADDED from D:\SmartKey_MS648_CA\app\src\main\AndroidManifest.xml:38:17-82
+	android:name
+		ADDED from D:\SmartKey_MS648_CA\app\src\main\AndroidManifest.xml:38:25-80
+intent-filter#action:name:com.moka.sleepmode
+ADDED from D:\SmartKey_MS648_CA\app\src\main\AndroidManifest.xml:40:13-42:29
+action#com.moka.sleepmode
+ADDED from D:\SmartKey_MS648_CA\app\src\main\AndroidManifest.xml:41:17-60
+	android:name
+		ADDED from D:\SmartKey_MS648_CA\app\src\main\AndroidManifest.xml:41:25-58
+intent-filter#action:name:action_health_eye
+ADDED from D:\SmartKey_MS648_CA\app\src\main\AndroidManifest.xml:43:13-45:29
+action#action_health_eye
+ADDED from D:\SmartKey_MS648_CA\app\src\main\AndroidManifest.xml:44:17-59
+	android:name
+		ADDED from D:\SmartKey_MS648_CA\app\src\main\AndroidManifest.xml:44:25-57
+intent-filter#action:name:android.intent.action.ENTER_HOME+action:name:com.tcl.ShortcutKey+action:name:com.tcl.tv.diandu+category:name:android.intent.category.DEFAULT
+ADDED from D:\SmartKey_MS648_CA\app\src\main\AndroidManifest.xml:46:13-52:29
+	android:priority
+		ADDED from D:\SmartKey_MS648_CA\app\src\main\AndroidManifest.xml:46:28-50
+action#com.tcl.ShortcutKey
+ADDED from D:\SmartKey_MS648_CA\app\src\main\AndroidManifest.xml:47:17-61
+	android:name
+		ADDED from D:\SmartKey_MS648_CA\app\src\main\AndroidManifest.xml:47:25-59
+action#com.tcl.tv.diandu
+ADDED from D:\SmartKey_MS648_CA\app\src\main\AndroidManifest.xml:48:17-59
+	android:name
+		ADDED from D:\SmartKey_MS648_CA\app\src\main\AndroidManifest.xml:48:25-57
+action#android.intent.action.ENTER_HOME
+ADDED from D:\SmartKey_MS648_CA\app\src\main\AndroidManifest.xml:49:17-74
+	android:name
+		ADDED from D:\SmartKey_MS648_CA\app\src\main\AndroidManifest.xml:49:25-72
+category#android.intent.category.DEFAULT
+ADDED from D:\SmartKey_MS648_CA\app\src\main\AndroidManifest.xml:51:17-75
+	android:name
+		ADDED from D:\SmartKey_MS648_CA\app\src\main\AndroidManifest.xml:51:27-73
+meta-data#android.support.VERSION
+ADDED from [com.android.support:support-v4:25.3.1] C:\Users\mingshi.huang\.gradle\caches\transforms-1\files-1.1\support-v4-25.3.1.aar\6f1b2173de973e7451642d63016d79fd\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\mingshi.huang\.gradle\caches\transforms-1\files-1.1\support-fragment-25.3.1.aar\8540377d166c86785de2a7a5e07b2f37\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\mingshi.huang\.gradle\caches\transforms-1\files-1.1\support-fragment-25.3.1.aar\8540377d166c86785de2a7a5e07b2f37\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\mingshi.huang\.gradle\caches\transforms-1\files-1.1\support-media-compat-25.3.1.aar\7c9dc670ae7103c6d090ab2c62b349e3\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\mingshi.huang\.gradle\caches\transforms-1\files-1.1\support-media-compat-25.3.1.aar\7c9dc670ae7103c6d090ab2c62b349e3\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\mingshi.huang\.gradle\caches\transforms-1\files-1.1\support-core-utils-25.3.1.aar\bdc2b76b1f5520603661f0f2aacf24b1\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\mingshi.huang\.gradle\caches\transforms-1\files-1.1\support-core-utils-25.3.1.aar\bdc2b76b1f5520603661f0f2aacf24b1\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\mingshi.huang\.gradle\caches\transforms-1\files-1.1\support-core-ui-25.3.1.aar\04b47450955379643c7e204ead8df7e3\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\mingshi.huang\.gradle\caches\transforms-1\files-1.1\support-core-ui-25.3.1.aar\04b47450955379643c7e204ead8df7e3\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\mingshi.huang\.gradle\caches\transforms-1\files-1.1\support-compat-25.3.1.aar\0acd13ead184eab62a90fb2506f2cbf7\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\mingshi.huang\.gradle\caches\transforms-1\files-1.1\support-compat-25.3.1.aar\0acd13ead184eab62a90fb2506f2cbf7\AndroidManifest.xml:25:5-27:34
+	android:value
+		ADDED from [com.android.support:support-v4:25.3.1] C:\Users\mingshi.huang\.gradle\caches\transforms-1\files-1.1\support-v4-25.3.1.aar\6f1b2173de973e7451642d63016d79fd\AndroidManifest.xml:27:9-31
+	android:name
+		ADDED from [com.android.support:support-v4:25.3.1] C:\Users\mingshi.huang\.gradle\caches\transforms-1\files-1.1\support-v4-25.3.1.aar\6f1b2173de973e7451642d63016d79fd\AndroidManifest.xml:26:9-47

@@ -1,0 +1,67 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="555px"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="94.5px"
+        android:background="@drawable/onlylistenbackground" >
+
+        <ImageView
+            android:id="@+id/time_count_down"
+            android:layout_width="330px"
+            android:layout_height="330px"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="172.5px"
+            android:src="@drawable/bluecircle0" />
+        
+        <TextView 
+            android:id="@+id/count_down_value"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="97.5px"
+            android:text="5"
+            android:textSize="180px"
+            android:textColor="#0ecaf8"
+            android:layout_marginLeft="900px"
+            />
+        
+        <TextView 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="207px"
+            android:layout_toRightOf="@id/count_down_value"
+            android:text="@string/second"
+            android:textSize="75px"
+            android:textColor="#0ecaf8"
+            android:layout_centerHorizontal="true"
+            />
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="45px"
+            android:text="@string/singleListener_tip"
+            android:textColor="#ffffff"
+            android:textSize="22.5px" />
+
+        <TextView
+            android:id="@+id/text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/textView1"
+            android:layout_centerHorizontal="true"
+            android:text="@string/singleListener_enter"
+            android:layout_marginBottom="4.5px"
+            android:textColor="#ffffff"
+            android:textSize="36px" />
+    </RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,38 @@
+apply plugin: 'com.android.application'
+
+android {
+    signingConfigs {
+        MS648 {
+            keyAlias 'androiddebugkey'
+            keyPassword '123456'
+            storeFile file('E:/文档/工作资料/ms848c/debug.keystore')
+            storePassword '123456'
+        }
+    }
+    compileSdkVersion 25
+    buildToolsVersion '27.0.3'
+    defaultConfig {
+        applicationId "com.odm.smartkey"
+        minSdkVersion 19
+        targetSdkVersion 25
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+            signingConfig signingConfigs.MS648
+        }
+        debug {
+            signingConfig signingConfigs.MS648
+        }
+    }
+    sourceSets { main { assets.srcDirs = ['src/main/assets', 'src/main/assets/'] } }
+}
+
+dependencies {
+    compile 'com.android.support:support-v4:25.+'
+    compile files('libs/mstar.jar')
+    implementation files('libs/AppService.jar')
+    implementation files('libs/XiriFeedback.jar')
+    implementation files('libs/XiriScene.jar')
+}

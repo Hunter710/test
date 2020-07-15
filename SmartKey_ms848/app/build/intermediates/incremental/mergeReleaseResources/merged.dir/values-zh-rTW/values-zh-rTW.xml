@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="E_Share">E-Share</string>
+    <string name="app_name">智慧按鍵</string>
+    <string name="enjoy_music">音響模式</string>
+    <string name="fast_cast">極速投屏</string>
+    <string name="movie">電影</string>
+    <string name="music">音樂</string>
+    <string name="night_mode">夜間模式</string>
+    <string name="night_mode_failed">執行夜間模式失敗</string>
+    <string name="second">S</string>
+    <string name="singleListener_enter">進入音響模式</string>
+    <string name="singleListener_tip">除音量鍵之外,按任意鍵可取消</string>
+    <string name="sleep_timer">睡眠自動關機</string>
+    <string name="soundbar_ready">聲音回傳</string>
+    <string name="standard">標準</string>
+    <string name="time_10">10分鐘</string>
+    <string name="time_120">120分鐘</string>
+    <string name="time_180">180分鐘</string>
+    <string name="time_20">20分鐘</string>
+    <string name="time_30">30分鐘</string>
+    <string name="time_60">60分鐘</string>
+    <string name="time_90">90分鐘</string>
+    <string name="time_off">關</string>
+    <string name="turn_off">關</string>
+    <string name="weather">天氣</string>
+    <string name="wireless_display">無線相互連網</string>
+    <string name="world_clock">世界時鐘</string>
+</resources>

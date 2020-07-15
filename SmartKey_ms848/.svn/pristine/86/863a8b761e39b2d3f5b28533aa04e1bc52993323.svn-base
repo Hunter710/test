@@ -1,0 +1,114 @@
+package com.odm.smartkey;
+
+import android.content.Context;
+import android.content.Intent;
+import android.net.Uri;
+import android.util.Log;
+
+import com.iflytek.xiri.AppService;
+import com.iflytek.xiri.Feedback;
+
+
+///key word: XiriService
+public class XiriVoiceControlService extends AppService {
+    private static final String strTAG = "com.odm.smartkey." + XiriVoiceControlService.class.getSimpleName();
+    private Context objContext;
+    private Feedback objFeedback = null;
+    
+    private IAppListener mAppListener = new IAppListener() {
+        @SuppressWarnings("deprecation")
+        @Override
+        public void onExecute(Intent intent) {
+            objFeedback.begin(intent);
+            String strCmd = intent.getStringExtra("_command");
+            Log.v(strTAG, "Cmd:" + strCmd + " onExecute " + Uri.decode(intent.toURI()));
+            if (strCmd.equals("open")) {
+                ///open live tv activity
+                Log.v(strTAG, "open smartkey activity");
+                intent.setClassName("com.odm.smartkey", "com.odm.smartkey.SmartKeyActivity");
+                intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+                startActivity(intent);
+                objFeedback.feedback("打开智能按键应用", Feedback.DIALOG);
+            } else if (strCmd.equals("close")) {
+                ///close live tv activity
+                Log.v(strTAG, "close smartkey activity, start home luncher");
+                Intent intentLuncher = new Intent(Intent.ACTION_MAIN);
+                intentLuncher.addCategory(Intent.CATEGORY_HOME);
+                intentLuncher.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+                startActivity(intentLuncher);
+                objFeedback.feedback("退出智能按键应用", Feedback.DIALOG);
+            } else if (strCmd.equals("other")) {
+                String strFuzzyWordsCmd = intent.getStringExtra("w_other");
+                Log.v(TAG, "w_other:" + strFuzzyWordsCmd);
+                String target = null;
+
+                if ((strFuzzyWordsCmd.equals("睡眠")) ||
+                        (strFuzzyWordsCmd.equals("睡眠设置"))||
+                        (strFuzzyWordsCmd.equals("打开睡眠"))||
+                        (strFuzzyWordsCmd.equals("打开睡眠设置"))||
+                        (strFuzzyWordsCmd.equals("睡眠关机"))||
+                        (strFuzzyWordsCmd.equals("睡眠关机设置"))||
+                        (strFuzzyWordsCmd.equals("打开睡眠关机"))||
+                        (strFuzzyWordsCmd.equals("打开睡眠关机设置"))) {
+                    objFeedback.feedback("打开睡眠关机", Feedback.DIALOG);
+                    target = "sleep";
+                    intent.putExtra("_target", target);
+                } else if ((strFuzzyWordsCmd.equals("单独听")) ||
+                        (strFuzzyWordsCmd.equals("单独听设置"))||
+                        (strFuzzyWordsCmd.equals("打开单独听"))||
+                        (strFuzzyWordsCmd.equals("打开单独听设置"))) {
+                    objFeedback.feedback("打开单独听", Feedback.DIALOG);
+                    target = "listen";
+                    intent.putExtra("_target", target);
+                } else if ((strFuzzyWordsCmd.equals("世界时钟")) ||
+                        (strFuzzyWordsCmd.equals("世界时钟设置"))||
+                        (strFuzzyWordsCmd.equals("打开世界时钟"))||
+                        (strFuzzyWordsCmd.equals("打开世界时钟设置"))) {
+                    objFeedback.feedback("打开世界时钟", Feedback.DIALOG);
+                    target = "clock";
+                    intent.putExtra("_target", target);
+                } else if ((strFuzzyWordsCmd.equals("声霸通")) ||
+                        (strFuzzyWordsCmd.equals("声霸通设置"))||
+                        (strFuzzyWordsCmd.equals("打开声霸通"))||
+                        (strFuzzyWordsCmd.equals("打开声霸通设置"))) {
+                    objFeedback.feedback("打开声霸通", Feedback.DIALOG);
+                    target = "soundbar";
+                    intent.putExtra("_target", target);
+                } else {
+                    objFeedback.feedback("打开智能按键应用", Feedback.DIALOG);
+                }
+
+                ///open live tv activity
+                Log.v(strTAG, "open smartkey activity");
+                intent.setClassName("com.odm.smartkey", "com.odm.smartkey.SmartKeyActivity");
+                intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+                startActivity(intent);
+            } else {
+                objFeedback.feedback("暂不支持指令:" + strCmd, Feedback.DIALOG);
+            }
+        }
+
+        @Override
+        public void onTextFilter(Intent var1) {
+            Log.v(strTAG, "onTextFilter, not implent");
+        }
+    };
+
+    @Override
+    protected void onInit() {
+    }
+
+    @Override
+    public void onCreate() {
+        Log.v(strTAG, "start voice control service");
+        super.onCreate();
+        setAppListener(mAppListener);
+        objContext = this;
+        objFeedback = new Feedback(objContext);
+    }
+
+    @Override
+    public void onDestroy() {
+        super.onDestroy();
+    }
+}

@@ -1,0 +1,217 @@
+<RelativeLayout android:id="@+id/container"
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:visibility="visible">
+
+    <LinearLayout
+        android:id="@+id/main"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/px_195"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/smart_menu_bg"
+        android:paddingLeft="@dimen/px_170"
+        android:paddingRight="@dimen/px_170"
+        android:visibility="visible">
+
+        <LinearLayout
+            android:id="@+id/item_enjoy_music"
+            android:layout_width="@dimen/px_200"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/px_50"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/enjoy_music_icon"
+                android:layout_width="@dimen/px_98"
+                android:layout_height="@dimen/px_98"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/smart_enjoy_music"/>
+
+            <RelativeLayout
+                android:id="@+id/enjoy_music_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal">
+
+                <TextView
+                    android:id="@+id/enjoy_music_text_context"
+                    android:layout_width="@dimen/px_150"
+                    android:gravity="center_horizontal"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:clickable="true"
+                    android:ellipsize="marquee"
+                    android:focusable="true"
+                    android:singleLine="true"
+                    android:text="@string/enjoy_music"
+                    android:textColor="@color/text_item_color"
+                    android:textSize="@dimen/px_25"/>
+            </RelativeLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/item_sleep_timer"
+            android:layout_width="@dimen/px_200"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/px_50"
+            android:layout_toRightOf="@id/item_enjoy_music"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/sleep_timer_icon"
+                android:layout_width="@dimen/px_98"
+                android:layout_height="@dimen/px_98"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/smart_sleep_timer"/>
+
+            <RelativeLayout
+                android:id="@+id/sleep_timer_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal">
+
+                <TextView
+                    android:id="@+id/sleep_timer_text_context"
+                    android:layout_width="@dimen/px_150"
+                    android:gravity="center_horizontal"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:clickable="true"
+                    android:ellipsize="marquee"
+                    android:focusable="true"
+                    android:singleLine="true"
+                    android:text="@string/sleep_timer"
+                    android:textColor="@color/text_item_color"
+                    android:textSize="@dimen/px_25"/>
+            </RelativeLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/item_world_clock"
+            android:layout_width="@dimen/px_200"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/px_50"
+            android:layout_toRightOf="@id/item_sleep_timer"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/clock_icon"
+                android:layout_width="@dimen/px_98"
+                android:layout_height="@dimen/px_98"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/smart_clock"/>
+
+            <RelativeLayout
+                android:id="@+id/world_clock_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal">
+
+                <TextView
+                    android:id="@+id/world_clock_text_context"
+                    android:layout_width="@dimen/px_150"
+                    android:gravity="center_horizontal"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:clickable="true"
+                    android:ellipsize="marquee"
+                    android:focusable="true"
+                    android:singleLine="true"
+                    android:text="@string/world_clock"
+                    android:textColor="@color/text_item_color"
+                    android:textSize="@dimen/px_25"/>
+            </RelativeLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/item_soundbar_ready"
+            android:layout_width="@dimen/px_200"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/px_30"
+            android:layout_toRightOf="@id/item_sleep_timer"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/arrow_up"
+                android:layout_width="@dimen/px_20"
+                android:layout_height="@dimen/px_20"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/arrow_up"/>
+
+            <ImageView
+                android:id="@+id/soundbar_ready_icon"
+                android:layout_width="@dimen/px_98"
+                android:layout_height="@dimen/px_98"
+                android:layout_marginRight="@dimen/px_5"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/smart_soundbar"/>
+
+            <RelativeLayout
+                android:id="@+id/soundbar_ready_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal">
+
+                <TextView
+                    android:id="@+id/soundbar_ready_text_context"
+                    android:layout_width="@dimen/px_150"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"
+                    android:layout_centerHorizontal="true"
+                    android:clickable="true"
+                    android:ellipsize="marquee"
+                    android:focusable="true"
+                    android:singleLine="true"
+                    android:text="@string/soundbar_ready"
+                    android:textColor="@color/text_item_color"
+                    android:textSize="@dimen/px_25"/>
+            </RelativeLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/item_fast_cast"
+            android:layout_width="@dimen/px_200"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/px_50"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/fast_cast_icon"
+                android:layout_width="@dimen/px_98"
+                android:layout_height="@dimen/px_98"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/smart_fast_cast"/>
+
+            <RelativeLayout
+                android:id="@+id/fast_cast_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal">
+
+                <TextView
+                    android:id="@+id/fast_cast_text_context"
+                    android:layout_width="@dimen/px_150"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:clickable="true"
+                    android:ellipsize="marquee"
+                    android:gravity="center_horizontal"
+                    android:focusable="true"
+                    android:nextFocusRight="@+id/night_mode_text_context"
+                    android:singleLine="true"
+                    android:text="@string/fast_cast"
+                    android:textColor="@color/text_item_color"
+                    android:textSize="@dimen/px_25"/>
+            </RelativeLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

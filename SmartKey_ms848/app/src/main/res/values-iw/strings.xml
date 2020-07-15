@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">כפתור חכםכפתור חכם</string>
+    <string name="wireless_display">אינטרנט אלחוטי</string>
+    <string name="E_Share">E-Share</string>
+    <string name="enjoy_music">ליהנות ממוסיקה</string>
+    <string name="sleep_timer">טיימר שינה</string>
+    <string name="world_clock">שעון עולמי</string>
+    <string name="soundbar_ready">soundbar מוכן</string>
+    <string name="fast_cast">FastCast</string>
+    <string name="night_mode">מצב לילה</string>
+    <string name="second">S</string>
+    <string name="singleListener_tip">לחץ על מקש כלשהו מלבד מקש עוצמת הקול כדי לבטל!</string>
+    <string name="singleListener_enter">גישה למוסיקה</string>
+    <string name="weather">מזג אויר</string>
+    <string name="turn_off">קָרוֹב</string>
+    <string name="time_off">קָרוֹב</string>
+    <string name="time_10">10 דקות</string>
+    <string name="time_20">20 דקות</string>
+    <string name="time_30">30 דקות</string>
+    <string name="time_60">60 דקות</string>
+    <string name="time_90">90 דקות</string>
+    <string name="time_120">120 דקות</string>
+    <string name="time_180">180 דקות</string>
+    <string name="standard">רגיל</string>
+    <string name="music">מוסיקה</string>
+    <string name="movie">סרט</string>
+
+    <string name="night_mode_failed">הפעלת מצב הלילה נכשלה</string>
+</resources>
